@@ -32,7 +32,7 @@ app.use(morgan('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors({
-    origin: 'http://110.41.22.67:8080',
+    origin: 'http://124.222.124.228:8080',
     credentials: true,
 }));
 
